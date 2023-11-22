@@ -17,7 +17,7 @@
     <div id="gridContainer">
         <header>
             <nav class="setContentMaxWidth">
-                <a title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
+                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li class="currentSite"><a href="#">Portfolio</a></li>
@@ -25,27 +25,27 @@
                 </ul>
                 <a title="Send us a message" href="about.html#contactUs" class="yellowBtn">Contact</a>
             </nav>
-            <section class="banner">
+            <section role="banner" class="banner">
                 <div class="portfolioOverlay">
                     <h1>Portfolio</h1>
-                </div>
-                <img class="transparent" src="img/header.jpg" alt="">
+                </div><!--banner bakgrunn er for pynt-->
+                <img class="transparent" src="img/header.jpg" alt="Banner background picture of a black desk">
             </section>
         </header>
         <main>
             <div class="jumpToStart">
-                <a href="#"><i class="fa-solid fa-arrow-up whiteIcons"></i></a>
+                <a href="#" aria-label="Jump to head of page"><i class="fa-solid fa-arrow-up whiteIcons"></i></a>
             </div>
             <section class="previousJobs setContentMaxWidth">
                 <h2 class="portfolioHeader">Explore previous jobs</h2>
                 <ul class="setContentMaxWidth">
-                    <li><a href="#branding">Branding</a></li>
-                    <li><a href="#design">Design</a></li>
-                    <li><a href="#development">Development</a></li>
+                    <li><a aria-label="Link to branding section" href="#branding">Branding</a></li>
+                    <li><a aria-label="Link to design section" href="#design">Design</a></li>
+                    <li><a aria-label="Link to development section" href="#development">Development</a></li>
                 </ul>
             </section>
             <section id="branding" tabindex="0" class="portfolioSections setContentMaxWidth">
-                <h2 class="portfolioHeader">Branding</h2>
+                <h2 class="portfolioHeader">Branding</h2> <!--Alle placeholder bildene på denne siden har en funksjon og er ikke til pynt-->
                 <article tabindex="0">
                     <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
                     <h3>Et harum quidem</h3>
@@ -92,12 +92,12 @@
         </main>
         <footer>
             <section class="setContentMaxWidth">
-                <a title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
+                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
                 <h2>Companyrights Companyname 2023</h2>
                 <ul>
-                    <li><a title="Our Facebook page" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook whiteIcons"></i></a></li>
-                    <li><a title="Our Instagram page" href="https://www.instagram.com"><i class="fa-brands fa-instagram whiteIcons"></i></a></li>
-                    <li><a title="Our LinkedIn page" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin whiteIcons"></i></a></li>
+                    <li><a title="Our Facebook page" href="https://www.facebook.com"><i aria-label="Facebook icon" class="fa-brands fa-square-facebook whiteIcons"></i></a></li>
+                    <li><a title="Our Instagram page" href="https://www.instagram.com"><i aria-label="Instagram icon" class="fa-brands fa-instagram whiteIcons"></i></a></li>
+                    <li><a title="Our LinkedIn page" href="https://www.linkedin.com"><i aria-label="LinkedIn icon" class="fa-brands fa-linkedin whiteIcons"></i></a></li>
                 </ul>
             </section>
         </footer>
