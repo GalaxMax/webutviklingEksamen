@@ -39,7 +39,7 @@
                 <img class="transparent" src="img/header.jpg" alt="Banner background picture of a black desk">
             </section>
         </header>
-        <main>
+        <main itemscope itemtype="https://schema.org/CollectionPage">
             <div class="jumpToStart">
                 <a href="#" aria-label="Jump to head of page"><i class="fa-solid fa-arrow-up whiteIcons"></i></a>
             </div>
@@ -54,28 +54,137 @@
             <section id="branding" tabindex="0" class="portfolioSections setContentMaxWidth">
                 <h2 class="portfolioHeader">Branding</h2> <!--Alle placeholder bildene på denne siden har en funksjon og er ikke til pynt-->
                 <article tabindex="0">
-                    <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
-                    <h3>Et harum quidem</h3>
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
                 </article>
                 <article tabindex="0">
-                    <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
-                    <h3>Et harum quidem</h3>
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
                 </article>
                 <article tabindex="0">
-                    <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
-                    <h3>Et harum quidem</h3>
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
                 </article>
                 <article tabindex="0">
-                    <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
-                    <h3>Et harum quidem</h3>
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+            </section>
+            <section id="design" tabindex="0" class="portfolioSections setContentMaxWidth">
+                <h2 class="portfolioHeader">Design</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our portfolio of previous jobs. We make sure every customer is satisfied with our services.">
+    <meta property="og:url" content="https://galaxmax.github.io/webutviklingEksamen/products.html" />
+    <meta property="og:title" content="company-name" />
+    <meta property="og:description" content="Explore our portfolio of previous jobs." />
+    <meta property="og:image" content="https://galaxmax.github.io/webutviklingEksamen/img/logo1.png" />
+    <meta property="og:type" content="webstore" />
+    <meta name="twitter:card" content="summary" />
+    <link href="css/font-icons/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font-icons/css/brands.css" rel="stylesheet">
+    <link href="css/font-icons/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+<body>
+    <div id="gridContainer">
+        <header>
+            <nav class="setContentMaxWidth">
+                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="currentSite"><a href="#">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <a title="Send us a message" href="about.html#contactUs" class="yellowBtn">Contact</a>
+            </nav>
+            <section role="banner" class="banner">
+                <div class="portfolioOverlay">
+                    <h1>Portfolio</h1>
+                </div><!--banner bakgrunn er for pynt-->
+                <img class="transparent" src="img/header.jpg" alt="Banner background picture of a black desk">
+            </section>
+        </header>
+        <main itemscope itemtype="https://schema.org/CollectionPage">
+            <div class="jumpToStart">
+                <a href="#" aria-label="Jump to head of page"><i class="fa-solid fa-arrow-up whiteIcons"></i></a>
+            </div>
+            <section class="previousJobs setContentMaxWidth">
+                <h2 class="portfolioHeader">Explore previous jobs</h2>
+                <ul class="setContentMaxWidth">
+                    <li><a aria-label="Link to branding section" href="#branding">Branding</a></li>
+                    <li><a aria-label="Link to design section" href="#design">Design</a></li>
+                    <li><a aria-label="Link to development section" href="#development">Development</a></li>
+                </ul>
+            </section>
+            <section id="branding" tabindex="0" class="portfolioSections setContentMaxWidth">
+                <h2 class="portfolioHeader">Branding</h2> <!--Alle placeholder bildene på denne siden har en funksjon og er ikke til pynt-->
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
                 </article>
             </section>
             <section id="design" tabindex="0" class="portfolioSections setContentMaxWidth">
                 <h2 class="portfolioHeader">Design</h2>
                 <article tabindex="0">
-                    <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
-                    <h3>Et harum quidem</h3>
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
                 </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+            </section>
+            <section id="development" tabindex="0" class="portfolioSections setContentMaxWidth">
+                <h2 class="portfolioHeader">Development</h2>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+                <article tabindex="0">
+                    <img itemprop="thumbnail" class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
+                    <h3 itemprop="name">Et harum quidem</h3>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <section class="setContentMaxWidth">
+                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
+                <h2>Companyrights Companyname 2023</h2>
+                <ul>
+                    <li><a title="Our Facebook page" href="https://www.facebook.com"><i role="img" aria-label="Facebook icon" class="fa-brands fa-square-facebook whiteIcons"></i></a></li>
+                    <li><a title="Our Instagram page" href="https://www.instagram.com"><i role="img" aria-label="Instagram icon" class="fa-brands fa-instagram whiteIcons"></i></a></li>
+                    <li><a title="Our LinkedIn page" href="https://www.linkedin.com"><i role="img"s aria-label="LinkedIn icon" class="fa-brands fa-linkedin whiteIcons"></i></a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
                 <article tabindex="0">
                     <img class="placeholderImg" src="https://placehold.co/400" alt="Placeholder for article thumbnail">
                     <h3>Et harum quidem</h3>

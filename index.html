@@ -21,12 +21,12 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
-    <div id="gridContainer">
-        <header>
+    <div itemscope itemtype="https://schema.org/WebPage" id="gridContainer">
+        <header itemprop="name" content="company-name">
             <nav class="setContentMaxWidth">
                 <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
                 <ul>
-                    <li class="currentSite"><a href="#">Home</a></li>
+                    <li itemprop="url" content="https://galaxmax.github.io/webutviklingEksamen/index.html" class="currentSite"><a href="#">Home</a></li>
                     <li><a href="products.html">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
@@ -35,16 +35,16 @@
             <section role="banner" class="banner">
                 <div class="videoOverlay">
                     <div class="setContentMaxWidth">
-                        <h1>Compelling headline</h1>
-                        <p>Donec consectetur tempus lorem vitae commodo. Fusce non rutrum enim. Duis in egestas nulla. Maecenas faucibus pellentesque laoreet. Sed nec bibendum lorem, at dictum neque.</p>
+                        <h1 itemprop="headline">Compelling headline</h1>
+                        <p itemprop="about">Donec consectetur tempus lorem vitae commodo. Fusce non rutrum enim. Duis in egestas nulla. Maecenas faucibus pellentesque laoreet. Sed nec bibendum lorem, at dictum neque.</p>
                         <a title="Shows our services" href="#jumpToServices" class="yellowBtn">Read more about our services</a>
                     </div>
                 </div> <!--banner bakgrunn er for pynt-->
-                <img class="hideHeaderImg" src="img/header.jpg" alt="Banner background picture of a black desk">
+                <img itemprop="primaryImageOfPage" class="hideHeaderImg" src="img/header.jpg" alt="Banner background picture of a black desk">
                 <video class="transparent hideHeaderVideo" autoplay muted loop src="vid/mountains.mp4"></video>
             </section>
         </header>
-        <main>
+        <main itemprop="mainContentOfPage">
             <div class="jumpToStart">
                 <a href="#" aria-label="Jump to head of page"><i class="fa-solid fa-arrow-up whiteIcons"></i></a>
             </div>
@@ -64,25 +64,25 @@
             </section>
             <section class="twoRowSection setContentMaxWidth" id="jumpToServices" tabindex="0">
                 <h2>Our Services</h2>
-                <article class="serviceIcons">
+                <article itemscope itemtype="https://schema.org/Offer" class="serviceIcons">
                     <i role="img" aria-label="Icon of multiple people" class="fa-solid fa-users"></i>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 itemprop="name">Branding</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
-                <article class="serviceIcons">
+                <article itemscope itemtype="https://schema.org/Offer" class="serviceIcons">
                     <i role="img" aria-label="Icon about cloud service" class="fa-solid fa-cloud-arrow-up"></i>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 itemprop="name">Branding</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
-                <article class="serviceIcons">
+                <article itemscope itemtype="https://schema.org/Offer" class="serviceIcons">
                     <i role="img" aria-label="Icon about code snippet" class="fa-solid fa-code"></i>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 itemprop="name">Branding</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
-                <article class="serviceIcons">
+                <article itemscope itemtype="https://schema.org/Offer" class="serviceIcons">
                     <i role="img" aria-label="Icon of wifi signals" class="fa-solid fa-wifi"></i>
-                    <h3>Branding</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 itemprop="name">Branding</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
             </section>
             <section class="newsletter grey">
