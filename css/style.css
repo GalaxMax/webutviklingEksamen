@@ -396,6 +396,11 @@ textarea {
     padding: 0.3rem;
 }
 
+.previousJobs a:hover {
+    color: #e6bd43;
+    background-color: #252525;
+}
+
  .jumpToStart {
     position: sticky;
     right: 0;

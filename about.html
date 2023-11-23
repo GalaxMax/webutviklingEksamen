@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn what we offer to our customers or contact us if you have further questions.">
+    <meta property="og:url" content="https://galaxmax.github.io/webutviklingEksamen/about.html" />
+    <meta property="og:title" content="company-name" />
+    <meta property="og:description" content="Learn what we offer to our customers." />
+    <meta property="og:image" content="https://galaxmax.github.io/webutviklingEksamen/img/logo1.png" />
+    <meta property="og:type" content="webstore" />
+    <meta name="twitter:card" content="summary" />
     <link href="css/font-icons/css/fontawesome.css" rel="stylesheet">
     <link href="css/font-icons/css/brands.css" rel="stylesheet">
     <link href="css/font-icons/css/solid.css" rel="stylesheet">
@@ -14,12 +21,12 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
-    <div id="gridContainer">
+    <div itemscope itemtype="https://schema.org/Organization" id="gridContainer">
         <header>
             <nav class="setContentMaxWidth">
-                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
+                <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html" itemprop="logo" content="https://galaxmax.github.io/webutviklingEksamen/img/logo1.png"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li itemprop="url" content="https://galaxmax.github.io/webutviklingEksamen/index.html"><a href="index.html">Home</a></li>
                     <li><a href="products.html">Portfolio</a></li>
                     <li class="currentSite"><a href="#">About</a></li>
                 </ul>
@@ -27,7 +34,7 @@
             </nav>
             <section role="banner" class="banner">
                 <div class="aboutOverlay">
-                    <p>Company name</p>
+                    <p itemprop="name">Company name</p>
                     <h1>About Our Company</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra eget velit at commodo. Nunc in nunc nec est tristique viverra fermentum sit amet eros. Suspendisse at tempus ipsum, vel porttitor tellus. Aenean ut nisi ullamcorper, accumsan tellus sed, fermentum sem.</p>
                     <a title="Send us a message" class="yellowBtn" href="#contactUs">Get in touch with us</a>
@@ -42,22 +49,22 @@
             <section class="twoRowSection setContentMaxWidth" id="jumpToServices" tabindex="0">
                 <h2>Our Services</h2>
                 <article class="serviceIcons">
-                    <i aria-label="Icon of multiple people" class="fa-solid fa-users"></i>
+                    <i role="img" aria-label="Icon of multiple people" class="fa-solid fa-users"></i>
                     <h3>Branding</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article class="serviceIcons">
-                    <i aria-label="Icon about cloud service" class="fa-solid fa-cloud-arrow-up"></i>
+                    <i role="img" aria-label="Icon about cloud service" class="fa-solid fa-cloud-arrow-up"></i>
                     <h3>Branding</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article class="serviceIcons">
-                    <i aria-label="Icon about code snippet" class="fa-solid fa-code"></i>
+                    <i role="img" aria-label="Icon about code snippet" class="fa-solid fa-code"></i>
                     <h3>Branding</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article class="serviceIcons">
-                    <i aria-label="Icon of wifi signals" class="fa-solid fa-wifi"></i>
+                    <i role="img" aria-label="Icon of wifi signals" class="fa-solid fa-wifi"></i>
                     <h3>Branding</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
@@ -87,15 +94,15 @@
                         <h3>Contact information</h3>
                         <p>Proin non ipsum arcu. Suspendisse ac turpis non libero porta vulputate at ut lacus. Vestibulum eget vehicula purus. Sed sollicitudin sed sem sit amet aliquet. Donec maximus dit vehicula vaam urius.</p>
                         <ul class="contactInfo">
-                            <li><i class="fa-solid fa-location-pin"></i>B R A Veien 4, 1757 Halden</li>
-                            <li><i class="fa-solid fa-phone"></i>69 60 80 00</li>
-                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:postmottak@hiof.no">postmottak@hiof.no</a></li>
+                            <li itemprop="address"><i class="fa-solid fa-location-pin"></i>B R A Veien 4, 1757 Halden</li>
+                            <li itemprop="telephone"><i class="fa-solid fa-phone"></i>69 60 80 00</li>
+                            <li><i class="fa-solid fa-envelope"></i><a itemprop="email" content="postmottak@hiof.no" href="mailto:postmottak@hiof.no">postmottak@hiof.no</a></li>
                         </ul>
                     </article>
                 </div>
             </section>
             <section class="maps">
-                <iframe class="maps" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=B%20R%20A%20Veien%204,%201757%20Halden+(H%C3%B8gskolen%20i%20%C3%98stfold)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <iframe aria-label="Address location on Google Maps" class="maps" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=B%20R%20A%20Veien%204,%201757%20Halden+(H%C3%B8gskolen%20i%20%C3%98stfold)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </section>
         </main>
         <footer>
@@ -103,9 +110,9 @@
                 <a aria-label="Click to get back to homepage" title="Back to homepage" href="index.html"><img class="logo" src="img/logo1.png" alt="Company-name logo"></a>
                 <h2>Companyrights Companyname 2023</h2>
                 <ul>
-                    <li><a title="Our Facebook page" href="https://www.facebook.com"><i aria-label="Facebook icon" class="fa-brands fa-square-facebook whiteIcons"></i></a></li>
-                    <li><a title="Our Instagram page" href="https://www.instagram.com"><i aria-label="Instagram icon" class="fa-brands fa-instagram whiteIcons"></i></a></li>
-                    <li><a title="Our LinkedIn page" href="https://www.linkedin.com"><i aria-label="LinkedIn icon" class="fa-brands fa-linkedin whiteIcons"></i></a></li>
+                    <li><a title="Our Facebook page" itemprop="sameAs" href="https://www.facebook.com"><i role="img" aria-label="Facebook icon" class="fa-brands fa-square-facebook whiteIcons"></i></a></li>
+                    <li><a title="Our Instagram page" itemprop="sameAs" href="https://www.instagram.com"><i role="img" aria-label="Instagram icon" class="fa-brands fa-instagram whiteIcons"></i></a></li>
+                    <li><a title="Our LinkedIn page" itemprop="sameAs" href="https://www.linkedin.com"><i role="img"s aria-label="LinkedIn icon" class="fa-brands fa-linkedin whiteIcons"></i></a></li>
                 </ul>
             </section>
         </footer>
